@@ -64,3 +64,16 @@ The GitHub Pages URL above is an *example*, not an already-published link.
 - A `file:///` browser may restrict the external YouTube player; use **Open on YouTube** under each demo, or publish to GitHub Pages.
 - Keep all paths and filenames unchanged when uploading the directory.
 - Editing Google Sites cannot import this ZIP as a native Google Sites theme. See the Google Sites guide for options.
+
+
+## October 2026 case-study upgrade
+
+- Corrected Dimey research image to the actual green-bodied Dimey simulation from the supplied PowerPoint. Included two extracted Dimey experiment demo videos (MP4), speed/torque/power graphs, and matched PPO pipeline figures.
+- Expanded each case study with architecture, methods, evaluation, contributions and limitations.
+- Separated the 33× Microtaur teacher/student simulation result from the later Arduino UNO Q hardware deployment; no ESP32-S3 student deployment is claimed.
+- Motion retargeting is described as kinematic reference generation and verified MJLab playback, not completed imitation-policy PPO.
+- SpotMicro CPG+PPO descriptions checked against the supplied SpotMicro_RL public GitHub README.
+- VLM project includes Qwen2.5-VL 7B local inference and an ESP32-S3 bounded action architecture based on prior project discussions; no unverified fully autonomous navigation success rate is claimed.
+- The two Google Drive links are included as user-provided research archive links. Their folder contents could not be opened in this session; material in those folders was **not** invented or summarized.
+
+To update an existing GitHub Pages repository, copy the **contents** of this extracted folder over the repository root. Commit and push the changed `index.html`, `projects/`, and `assets/` files while preserving the folder structure.
